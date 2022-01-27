@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "repository": "ssh://git@github.com/ErgoFriend/test-package-replace.git",
   "author": "ErgoFriend <erg.friend@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react-use-gesture": "^9.1.3"
+  }
 }
