@@ -1,0 +1,7 @@
+{
+  "name": "test-package-replace",
+  "version": "1.0.0",
+  "repository": "ssh://git@github.com/ErgoFriend/test-package-replace.git",
+  "author": "ErgoFriend <erg.friend@gmail.com>",
+  "license": "MIT"
+}
