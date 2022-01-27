@@ -1,5 +1,19 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "replacements:all"
+    "config:base",
+    ":timezone(Asia/Tokyo)"
+  ],
+  "packageRules": [
+    {
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchPackageNames": [
+        "react-use-gesture"
+      ],
+      "replacementName": "@use-gesture/react",
+      "replacementVersion": "10.0.0"
+    }
   ]
 }
